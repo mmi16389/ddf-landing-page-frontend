@@ -7,7 +7,7 @@
       "projectType": "application",
       "schematics": {
         "@schematics/angular:component": {
-          "style": "sass"
+          "style": "scss"
         }
       },
       "root": "",
@@ -28,9 +28,18 @@
               "src/assets"
             ],
             "styles": [
-              "src/styles.sass"
+              "src/sass/styles.scss",
+              {
+                "input": "./node_modules/bootstrap/scss/bootstrap.scss"
+              }
             ],
-            "scripts": []
+            "scripts": [ 
+              {
+                "input": "./node_modules/jquery/dist/jquery.min.js"
+              },
+            {
+              "input": "./node_modules/bootstrap/dist/js/bootstrap.min.js"
+            }]
           },
           "configurations": {
             "production": {
@@ -88,7 +97,7 @@
               "src/assets"
             ],
             "styles": [
-              "src/styles.sass"
+              "src/sass/styles.scss"
             ],
             "scripts": []
           }
