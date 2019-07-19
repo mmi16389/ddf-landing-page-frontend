@@ -8,7 +8,7 @@ import { DesktopHeaderSecondLineComponent } from './desktop-header-second-line/d
 
 @NgModule({
   declarations: [DesktopHeaderActionButtonComponent, DesktopHeaderSecondLineComponent],
-  exports: [DesktopHeaderActionButtonComponent,DesktopHeaderSecondLineComponent ],
+  exports: [DesktopHeaderActionButtonComponent, DesktopHeaderSecondLineComponent],
   imports: [
     CommonModule,
     NgbModule,

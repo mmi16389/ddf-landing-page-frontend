@@ -1,41 +1,44 @@
- /* adding global styles*/
+/* adding global styles*/
 @import "./src/sass/base/variables";
- .cnx-desk-header{
-   background: orange; 
- }
- .sbp-desk-header{
-   border-left:1px solid rgba(52, 52, 129, 0.3)!important;
- }
- .lang-desk-header,.sbp-desk-header{
-   background: rgb(4, 4, 48);
-   color:white!important
- }
- .lang-desk-header,.sbp-desk-header,.cnx-desk-header{
+.cnx-desk-header {
+  background: orange;
+}
+.sbp-desk-header {
+  border-left: 1px solid rgba(52, 52, 129, 0.3) !important;
+}
+.lang-desk-header,
+.sbp-desk-header {
+  background: rgb(4, 4, 48);
+  color: white !important;
+}
+.lang-desk-header,
+.sbp-desk-header,
+.cnx-desk-header {
   border-radius: 0;
   height: 60px;
-  line-height: 50px
- }
- .first-line{
-   text-align: right;
-   border-bottom: 1px solid rgba(0,0,0,.1)
- }
- .st-logo{
+  line-height: 50px;
+}
+.first-line {
+  text-align: right;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+}
+.st-logo {
   display: block;
   position: absolute;
-  margin-top:-8px
+  margin-top: -8px;
 }
-.t1{
-  top:17px;
+.t1 {
+  top: 17px;
 }
-.t2{
-  top:35px;
+.t2 {
+  top: 35px;
 }
-.t1,.t2{
-  position: absolute; 
+.t1,
+.t2 {
+  position: absolute;
   font-family: $font-family-serif;
   text-transform: uppercase;
   font-weight: bold;
   width: 200px;
   color: rgb(4, 4, 48);
 }
- 
