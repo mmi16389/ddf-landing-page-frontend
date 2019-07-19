@@ -30,6 +30,9 @@
             "styles": [
               "src/sass/styles.scss",
               {
+                "input":"./node_modules/font-awesome/css/font-awesome.css"
+              },
+              {
                 "input": "./node_modules/bootstrap/scss/bootstrap.scss"
               }
             ],

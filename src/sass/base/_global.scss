@@ -1,0 +1,91 @@
+@import "variables"; 
+ /*---------------------------------------------------
+           bouton
+      ----------------------------------------------------- */
+ button {border-radius: 0% !important;}
+ .btn {font-family: 'open_sans_condensedbold'; font-weight: bolder;  text-transform: uppercase; }
+ .btn-secondary{background: $gris-clair!important; color: $violet-gris!important; border:thin $violet-gris solid!important; }
+ .btn-secondary:hover{background: $headband!important; color: $prune!important; border: $headband!important;  }
+ .btn-secondary:active{background: $violet-gris!important;color: $prune!important; border: $headband!important; }
+ .btn-primary{background: $prune!important; color: white!important; border:thin $prune solid!important; }
+ .btn-primary:active{background: $violet-gris!important; color: $prune!important;  }
+ .btn-primary:hover{background: $headband!important; color:white!important;}
+
+
+ /*---------------------------------------------------
+           Typo
+       ----------------------------------------------------- */
+
+ /*  fonts   */
+
+ @font-face {
+   font-family: 'OpenSans';
+   src: url('./../assets/fonts/OpenSans-Regular.eot');
+   src: url("./../assets/fonts/OpenSans-Regular.eot?#iefix") format("embedded-opentype"),
+   url("./../assets/fonts/OpenSans-Regular.ttf")  format("truetype"),
+   url("./../assets/fonts/OpenSans-Regular.woff2")  format("woff2"), url("./../assets/fonts/OpenSans-Regular.woff")  format("woff"),
+   url("./../assets/fonts/OpenSans-Regular.svg")  format("svg");
+ }
+ @font-face {
+   font-family: 'open_sans_condensedbold';
+   src: url('./../assets/fonts/OpenSans-CondBold-webfont.eot');
+   src: url('./../assets/fonts/OpenSans-CondBold-webfont.eot?#iefix') format('embedded-opentype'),
+   url('./../assets/fonts/OpenSans-CondBold-webfont.woff2') format('woff2'),
+   url('./../assets/fonts/OpenSans-CondBold-webfont.woff') format('woff'),
+   url('./../assets/fonts/OpenSans-CondBold-webfont.ttf') format('truetype'),
+   url('./../assets/fonts/OpenSans-CondBold-webfont.svg#open_sans_condensedbold') format('svg');
+   font-weight: normal;
+   font-style: normal;
+
+ }
+
+
+
+ .espace{float:left; padding-right: 1rem;}
+
+ h1 { font-family:'OpenSans';}
+
+ h1.b-none {color:$gris-fonce; font-family:'OpenSans', sans-serif; display:block; letter-spacing: 0.1em;}
+
+ h2{color: $headband; font-family:'OpenSans', sans-serif; font-weight: bolder;  text-transform: uppercase; }
+
+ h3{display: block; left: 1.4rem; width: 100%; font-family: 'open_sans_condensedbold', sans-serif; font-weight: bolder;  text-transform: uppercase;  }
+
+ .content> h4{font-family: 'open_sans_condensedbold', sans-serif; font-weight: 700; color:$prune;}
+
+
+ h5{ font-size-adjust: 0.75rem ; padding-left: 0.4em; font-family: 'open_sans_condensedbold', sans-serif; color: $headband; }
+
+ H4>i {margin-right: 1em;}
+
+ h6{font-family:'OpenSans', sans-serif; color: $headband; }
+
+ .statut{font-weight: bolder;}
+
+ p.smallest{ font-family:'OpenSans', sans-serif;
+   font-size: 1em !important;
+   font-weight: 300;
+   line-height: 1.7em;
+   color:$text!important;
+   display: inline;
+ }
+
+ p {
+   font-family:'OpenSans', sans-serif;
+   color: $text!important;
+ }
+
+ /*-   titre rubrique  - */
+
+
+ .t-rubrique{color: $headband; padding-top:1vh; }
+
+ .rubrique{
+   position: relative;
+   width: 90px;
+   height: 3px;
+   background: $headband;
+   z-index: 1;
+   margin-bottom: 10px;
+ }
+
